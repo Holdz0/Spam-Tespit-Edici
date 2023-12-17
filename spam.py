@@ -4,10 +4,10 @@ def spamtespit():
         satırlar = icerik.split("\n")       
         return satırlar
 def girisyazma():
-    with open("girisler.txt","a",encoding="utf-8")as girisleryaz:
+    with open("mesajlar.txt","a",encoding="utf-8")as girisleryaz:
         girisleryaz.write(giris+"\n")
 def girisliste():
-     with open("girisler.txt","r+",encoding="utf-8")as girisleryaz:
+     with open("mesajlar.txt","r+",encoding="utf-8")as girisleryaz:
         icerik = girisleryaz.read()
         satırlar = icerik.split("\n")
         return satırlar
