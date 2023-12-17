@@ -26,7 +26,7 @@ while True:
         sayac = giris.count(yazi)
         sayac2 += 1
         if sayac == 1:
-            print("spam")
+            print("Spam Tespit Edildi")
             spammesajlar()
             break
     if sayac2 == uzunluk:
